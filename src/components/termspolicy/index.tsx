@@ -33,11 +33,11 @@ const TermsPolicyPage = (props: IProps) => {
 
   return (
     <q.div f1 h100 w100 frtl txal={'left'} fsa fw>
-        <q.div fccl pa="25px">
+        <q.div fccl pa="25px" maxw={'500px'}>
             <q.h2>Terms of service</q.h2>
             {renderTextDisplay(props.tos)}
         </q.div>
-        <q.div  fccl pa="25px" >
+        <q.div  fccl pa="25px" maxw={'500px'} >
             <q.h2>Privacy policies</q.h2>
             {renderTextDisplay(props.privacy)}
         </q.div>

@@ -1,61 +1,63 @@
 html {
-  height: 100%;
-  width: 100%;
-  display: flex;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
 }
+
 body {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex: 1;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
 }
+
 #root {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex: 1;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
 }
 
 .App {
-  text-align: center;
-  background-color: #282c34;
-  height: 100%;
-  flex: 1;
-  color: white;
-  
-
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100%;
+    flex: 1;
+    color: white;
 }
+
 * {
-  word-break: break-all;
-  overflow-wrap: anywhere;
-  white-space: pre-wrap;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
 }
-
 
 .layoutSection {
-  background-color: #121212;
-  z-index: 1;
-  box-shadow: 10px 0 5px -2px #191a1d;
+    background-color: #121212;
+    z-index: 1;
+    box-shadow: 10px 0 5px -2px #191a1d;
 }
+
 @media screen and (min-width: 769px) {
-
-  #layoutSidebar { display: block; }
-
+    #layoutSidebar {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  #layoutSidebar { display: none; }
+    #layoutSidebar {
+        display: none;
+    }
 }
 
 .layoutheader {
-  box-shadow: 10px 10px 5px -2px #191a1d;
+    box-shadow: 10px 10px 5px -2px #191a1d;
 }
 
-
-.css-1vnwyk2-MuiTypography-root-MuiLink-root  {
-  color: white !important;
+.css-1vnwyk2-MuiTypography-root-MuiLink-root {
+    color: white !important;
 }
 
 .pageContainer {
-  display: block !important;
+    display: block !important;
 }

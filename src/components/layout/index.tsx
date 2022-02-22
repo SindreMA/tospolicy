@@ -18,8 +18,8 @@ interface IProps {
 function Laout(props: IProps) {
   return (
     <q.div w100 h100 f1 fctl>
-        <q.div w100 he={'70px'} className='layoutSection layoutheader' txal={'left'} pa=" 0 10px" >
-            <q.h2>Terms of service and privacy policy</q.h2>
+        <q.div w100 he={'70px'} className='layoutSection layoutheader' txal={'left'} >
+            <q.h2 pa="0 20px">Terms of service and privacy policy</q.h2>
         </q.div>
         <q.div frtl f1 w100 h100>
             <q.div h100 f1 className='layoutSection layoutSidebar' maxw={'360px'} co="white !important" id='layoutSidebar' >
@@ -38,7 +38,7 @@ function Laout(props: IProps) {
                   </List>
                 </Box>
             </q.div>
-            <q.div f3 pa={'15px'} w100 h100 className='pageContainer'>
+            <q.div f3 w100 h100 className='pageContainer'>
                 {props.children}
             </q.div>   
         </q.div>     

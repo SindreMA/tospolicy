@@ -34,7 +34,7 @@ function App() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <q.div className="App" f1 w100 h100 frtl ov={'hidden'} >
+        <q.div className="App" f1 w100 h100 frtl >
           <Layout>
             <AppRouter />
           </Layout>
